@@ -1,0 +1,33 @@
+﻿<Window x:Class="Diary.SettingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diary"
+        mc:Ignorable="d"
+        Title="Ustawienia" WindowStartupLocation="CenterScreen" Height="550" Width="400">
+    <Grid Margin="0,0,-8,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+           
+        </Grid.ColumnDefinitions>
+        
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,74,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,105,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,167,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="234,198,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        
+        <Label Content="Adres serwera bazy danych:" HorizontalAlignment="Left" Margin="29,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa serwera bazy danych:" HorizontalAlignment="Left" Margin="29,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa bazdy danych:" HorizontalAlignment="Left" Margin="29,136,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nazwa użytkownika:" HorizontalAlignment="Left" Margin="29,167,0,0" VerticalAlignment="Top"/>
+        <Label Content="Hasło użytkownika:" HorizontalAlignment="Left" Margin="29,193,0,0" VerticalAlignment="Top"/>
+        
+        <Button Content="Zapisz" HorizontalAlignment="Left" Margin="129,421,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Anuluj" HorizontalAlignment="Left" Margin="250,421,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
